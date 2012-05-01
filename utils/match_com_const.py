@@ -36,6 +36,12 @@ def constituency_encode(dep, const):
         return '{0}-{1}'.format(lpad(dep, 3, c='0'), lpad(const, 3, c='0'))
 
 def filter_uncertain(l):
+    # {code_insee: [circos]}
+    d = {}
+    for i in l:
+        d[i[0]] = d.get(i[0], []) + [i[1]]
+    l = [(i, d[i][0]) for i in d if len(d[i]) == 1]
+    l.sort()
     return l
 
 def parse_csv(f):
