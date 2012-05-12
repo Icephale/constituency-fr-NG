@@ -34,6 +34,7 @@ python listBadBy.py 1 > badByCirco.csv
 wc -l badByCirco.csv
 
 echo "Génération du csv pour join attributes dans qgis"
-cat gdByTown.csv > joinCircosByTown.csv
+echo '"com_insee";"circo";"status"' > joinCircosByTown.csv
+cat gdByTown.csv >> joinCircosByTown.csv
 cat badByTown.csv >> joinCircosByTown.csv
 wc -l joinCircosByTown.csv
