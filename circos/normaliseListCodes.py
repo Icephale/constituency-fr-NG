@@ -6,7 +6,8 @@ def str_replace(to_replace, text):
   pattern = "|".join(map(re.escape, to_replace.keys()))
   return re.sub(pattern, lambda m: to_replace[m.group()], text)
 
-crap = {'0ZA' : '971', '0ZB' : '972', '0ZC' : '973', '0ZD' : '974', 'ZA' : '97', 'ZB' : '97', 'ZC' : '97', 'ZD' : '97', '2A' : '20', '2B' : '20',}
+crap = {'0ZA' : '971', '0ZB' : '972', '0ZC' : '973', '0ZD' : '974', 'ZA' : '97', 'ZB' : '97', 'ZC' : '97', 'ZD' : '97'}
+# geofla contient des pseudos codes insee pour la corse
 
 csvfile = open('listCodes.csv', 'r')
 listcodes = csvfile.read().strip()
