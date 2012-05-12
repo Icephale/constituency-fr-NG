@@ -21,4 +21,4 @@ for line in csvfile:
       circos = line.split(';')
       circo = circos[1].split(',')
       for town in circo:
-        print(town+';'+circos[0])
+        print(town+';'+circos[0]+';good')

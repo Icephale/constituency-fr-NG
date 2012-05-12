@@ -32,3 +32,8 @@ wc -l badByTown.csv
 echo "Génération de la liste des circos problématiques par circos sans les doubles"
 python listBadBy.py 1 > badByCirco.csv
 wc -l badByCirco.csv
+
+echo "Génération du csv pour join attributes dans qgis"
+cat gdByTown.csv > joinCircosByTown.csv
+cat badByTown.csv >> joinCircosByTown.csv
+wc -l joinCircosByTown.csv
