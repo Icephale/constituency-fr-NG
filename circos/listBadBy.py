@@ -24,4 +24,4 @@ for line in csvfile:
       circo = circos[1].split(',')
       for town in circo:
         if town != '':
-          print(town+';'+circos[0]+';bad')
+          print(town+';"'+circos[0]+'";"bad"')
