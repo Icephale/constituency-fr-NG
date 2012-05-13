@@ -24,9 +24,9 @@
         </destinationsrs>
     </mapcanvas>
     <legend>
-        <legendlayer open="true" checked="Qt::Checked" name="circonscriptions" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="circonscriptions_wip" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="circonscriptions20120513103005271" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="circonscriptions_wip20120513144121642" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer open="true" checked="Qt::Checked" name="communes_epsg4326" showFeatureCount="0">
@@ -37,9 +37,9 @@
     </legend>
     <projectlayers layercount="2">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>circonscriptions20120513103005271</id>
-            <datasource>./circonscriptions.shp|layerid=0</datasource>
-            <layername>circonscriptions</layername>
+            <id>circonscriptions_wip20120513144121642</id>
+            <datasource>./circonscriptions_wip.shp</datasource>
+            <layername>circonscriptions_wip</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -57,14 +57,14 @@
             <vectorjoins/>
             <renderer-v2 attr="status" symbollevels="0" type="categorizedSymbol">
                 <categories>
-                    <category symbol="0" value="good" label="good"/>
+                    <category symbol="0" value="bad" label="bad"/>
                     <category symbol="1" value="" label=""/>
-                    <category symbol="2" value="bad" label="bad"/>
+                    <category symbol="2" value="good" label="good"/>
                 </categories>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="0,255,127,255"/>
+                            <prop k="color" v="215,25,28,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -74,7 +74,7 @@
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="255,170,0,255"/>
+                            <prop k="color" v="253,174,97,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -84,7 +84,7 @@
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color" v="171,221,164,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -96,7 +96,7 @@
                 <source-symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="142,83,99,255"/>
+                            <prop k="color" v="179,50,106,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -136,31 +136,12 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="CODE_ARR"/>
-                <edittype type="0" name="CODE_CANT"/>
-                <edittype type="0" name="CODE_COMM"/>
-                <edittype type="0" name="CODE_DEPT"/>
-                <edittype type="0" name="CODE_REG"/>
-                <edittype type="0" name="ID_GEOFLA"/>
-                <edittype type="0" name="INSEE_COM"/>
-                <edittype type="0" name="NOM_COMM"/>
-                <edittype type="0" name="NOM_DEPT"/>
-                <edittype type="0" name="NOM_REGION"/>
-                <edittype type="0" name="POPULATION"/>
-                <edittype type="0" name="STATUT"/>
-                <edittype type="0" name="SUPERFICIE"/>
-                <edittype type="0" name="X_CENTROID"/>
-                <edittype type="0" name="X_CHF_LIEU"/>
-                <edittype type="0" name="Y_CENTROID"/>
-                <edittype type="0" name="Y_CHF_LIEU"/>
-                <edittype type="0" name="Z_MOYEN"/>
                 <edittype type="0" name="circo"/>
-                <edittype type="0" name="com_insee"/>
                 <edittype type="0" name="status"/>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -198,7 +179,53 @@
                 <rotation field=""/>
                 <sizescale field=""/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontFamily" value="Sans Serif"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multiLineLabels" value="false"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/scaleMax" value="100000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+            </customproperties>
             <displayfield>ID_GEOFLA</displayfield>
             <label>0</label>
             <labelattributes>
