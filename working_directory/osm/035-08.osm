@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='45375861' role='outer' />
+    <member type='way' ref='32854941' role='outer' />
+    <member type='way' ref='32854942' role='outer' />
+    <member type='way' ref='32048912' role='outer' />
+    <member type='way' ref='34356071' role='outer' />
+    <member type='way' ref='34356069' role='outer' />
+    <member type='way' ref='30911659' role='outer' />
+    <member type='way' ref='34356073' role='outer' />
+    <member type='way' ref='34610982' role='outer' />
+    <member type='way' ref='35210330' role='outer' />
+    <member type='way' ref='34969225' role='outer' />
+    <member type='way' ref='34610979' role='outer' />
+    <member type='way' ref='32854843' role='outer' />
+    <member type='way' ref='32854935' role='outer' />
+    <member type='way' ref='32854831' role='outer' />
+    <member type='way' ref='32854927' role='outer' />
+    <member type='way' ref='34610981' role='outer' />
+    <member type='way' ref='38033611' role='outer' />
+    <member type='way' ref='38033610' role='outer' />
+    <member type='way' ref='35222787' role='outer' />
+    <member type='way' ref='35222788' role='outer' />
+    <member type='way' ref='35222786' role='outer' />
+    <member type='way' ref='34648751' role='outer' />
+    <member type='way' ref='34648756' role='outer' />
+    <member type='way' ref='34648762' role='outer' />
+    <member type='way' ref='34116652' role='outer' />
+    <tag k='ref' v='035-08' />
+  </relation>
+</osm>

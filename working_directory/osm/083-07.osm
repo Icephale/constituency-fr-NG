@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='36889373' role='outer' />
+    <member type='way' ref='36889365' role='outer' />
+    <member type='way' ref='36890828' role='outer' />
+    <member type='way' ref='36890530' role='outer' />
+    <member type='way' ref='36889802' role='outer' />
+    <member type='way' ref='162334131' role='outer' />
+    <member type='way' ref='79983714' role='outer' />
+    <member type='way' ref='79983685' role='outer' />
+    <member type='way' ref='98466906' role='outer' />
+    <member type='way' ref='49085396' role='outer' />
+    <member type='way' ref='40842851' role='outer' />
+    <member type='way' ref='31140681' role='outer' />
+    <member type='way' ref='152830604' role='outer' />
+    <member type='way' ref='26837191' role='outer' />
+    <member type='way' ref='38890447' role='outer' />
+    <member type='way' ref='30857543' role='outer' />
+    <member type='way' ref='31140673' role='outer' />
+    <member type='way' ref='24614077' role='outer' />
+    <member type='way' ref='24614078' role='outer' />
+    <member type='way' ref='38904011' role='outer' />
+    <member type='way' ref='42485255' role='outer' />
+    <member type='way' ref='42485251' role='outer' />
+    <member type='way' ref='48887708' role='outer' />
+    <member type='way' ref='48887707' role='outer' />
+    <member type='way' ref='48887711' role='outer' />
+    <member type='way' ref='48887712' role='outer' />
+    <member type='way' ref='48887710' role='outer' />
+    <member type='way' ref='48887713' role='outer' />
+    <member type='way' ref='48887709' role='outer' />
+    <member type='way' ref='30857541' role='outer' />
+    <member type='way' ref='30819494' role='outer' />
+    <member type='way' ref='30819511' role='outer' />
+    <member type='way' ref='30819570' role='outer' />
+    <member type='way' ref='40812902' role='outer' />
+    <tag k='ref' v='083-07' />
+  </relation>
+</osm>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='99242794' role='outer' />
+    <member type='way' ref='99242786' role='outer' />
+    <member type='way' ref='99242792' role='outer' />
+    <member type='way' ref='32556642' role='outer' />
+    <member type='way' ref='32556643' role='outer' />
+    <member type='way' ref='32611672' role='outer' />
+    <member type='way' ref='31233062' role='outer' />
+    <member type='way' ref='32556116' role='outer' />
+    <member type='way' ref='32556644' role='outer' />
+    <tag k='ref' v='094-09' />
+  </relation>
+</osm>

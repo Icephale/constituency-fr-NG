@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='29011118' role='outer' />
+    <member type='way' ref='29011333' role='outer' />
+    <member type='way' ref='28976303' role='outer' />
+    <member type='way' ref='28976304' role='outer' />
+    <member type='way' ref='38003234' role='outer' />
+    <member type='way' ref='28976492' role='outer' />
+    <member type='way' ref='28984136' role='outer' />
+    <member type='way' ref='28984274' role='outer' />
+    <member type='way' ref='28987119' role='outer' />
+    <member type='way' ref='28984276' role='outer' />
+    <member type='way' ref='28984387' role='outer' />
+    <member type='way' ref='28986153' role='outer' />
+    <member type='way' ref='28977213' role='outer' />
+    <member type='way' ref='28977583' role='outer' />
+    <member type='way' ref='38004985' role='outer' />
+    <member type='way' ref='28977650' role='outer' />
+    <member type='way' ref='37994432' role='outer' />
+    <member type='way' ref='28978185' role='outer' />
+    <member type='way' ref='28986627' role='outer' />
+    <member type='way' ref='29011323' role='outer' />
+    <member type='way' ref='28986625' role='outer' />
+    <member type='way' ref='29011592' role='outer' />
+    <member type='way' ref='29012150' role='outer' />
+    <member type='way' ref='42701981' role='outer' />
+    <member type='way' ref='28987118' role='outer' />
+    <member type='way' ref='29012798' role='outer' />
+    <member type='way' ref='28986770' role='outer' />
+    <member type='way' ref='42701982' role='outer' />
+    <member type='way' ref='28975651' role='outer' />
+    <member type='way' ref='28975780' role='outer' />
+    <member type='way' ref='28979374' role='outer' />
+    <member type='way' ref='28987489' role='outer' />
+    <member type='way' ref='28987488' role='outer' />
+    <member type='way' ref='28988354' role='outer' />
+    <member type='way' ref='28990538' role='outer' />
+    <member type='way' ref='28987490' role='outer' />
+    <member type='way' ref='42704092' role='outer' />
+    <member type='way' ref='28987113' role='outer' />
+    <member type='way' ref='28980149' role='outer' />
+    <member type='way' ref='28980421' role='outer' />
+    <member type='way' ref='28980706' role='outer' />
+    <member type='way' ref='37994431' role='outer' />
+    <member type='way' ref='28980959' role='outer' />
+    <member type='way' ref='77454676' role='outer' />
+    <member type='way' ref='76191799' role='outer' />
+    <member type='way' ref='37994808' role='outer' />
+    <member type='way' ref='28981459' role='outer' />
+    <member type='way' ref='28986771' role='outer' />
+    <member type='way' ref='38079572' role='outer' />
+    <member type='way' ref='77454675' role='outer' />
+    <member type='way' ref='28981548' role='outer' />
+    <member type='way' ref='28981457' role='outer' />
+    <member type='way' ref='29054933' role='outer' />
+    <member type='way' ref='29054934' role='outer' />
+    <member type='way' ref='28980096' role='outer' />
+    <tag k='ref' v='059-05' />
+  </relation>
+</osm>

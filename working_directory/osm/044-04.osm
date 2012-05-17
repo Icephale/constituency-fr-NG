@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='30584620' role='outer' />
+    <member type='way' ref='30828462' role='outer' />
+    <member type='way' ref='31058939' role='outer' />
+    <member type='way' ref='30584622' role='outer' />
+    <member type='way' ref='30584621' role='outer' />
+    <member type='way' ref='141926022' role='outer' />
+    <member type='way' ref='30779087' role='outer' />
+    <member type='way' ref='49807487' role='outer' />
+    <member type='way' ref='34300604' role='outer' />
+    <member type='way' ref='29146778' role='outer' />
+    <member type='way' ref='128942841' role='outer' />
+    <member type='way' ref='147156899' role='outer' />
+    <member type='way' ref='98958802' role='outer' />
+    <member type='way' ref='147156898' role='outer' />
+    <member type='way' ref='55407794' role='outer' />
+    <member type='way' ref='29147979' role='outer' />
+    <member type='way' ref='29267763' role='outer' />
+    <member type='way' ref='29551138' role='outer' />
+    <member type='way' ref='55457677' role='outer' />
+    <member type='way' ref='31097709' role='outer' />
+    <member type='way' ref='31097711' role='outer' />
+    <member type='way' ref='31098179' role='outer' />
+    <member type='way' ref='32798165' role='outer' />
+    <member type='way' ref='31097710' role='outer' />
+    <member type='way' ref='31059240' role='outer' />
+    <member type='way' ref='31059500' role='outer' />
+    <member type='way' ref='30244359' role='outer' />
+    <member type='way' ref='29553531' role='outer' />
+    <member type='way' ref='29984143' role='outer' />
+    <member type='way' ref='29984535' role='outer' />
+    <member type='way' ref='29267768' role='outer' />
+    <member type='way' ref='31059501' role='outer' />
+    <member type='way' ref='31059502' role='outer' />
+    <member type='way' ref='31059503' role='outer' />
+    <tag k='ref' v='044-04' />
+  </relation>
+</osm>

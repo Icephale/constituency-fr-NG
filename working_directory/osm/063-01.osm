@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='33042982' role='outer' />
+    <member type='way' ref='34036582' role='outer' />
+    <member type='way' ref='34393111' role='outer' />
+    <member type='way' ref='33042981' role='outer' />
+    <member type='way' ref='33040728' role='outer' />
+    <member type='way' ref='33581017' role='outer' />
+    <member type='way' ref='71588859' role='outer' />
+    <member type='way' ref='71588866' role='outer' />
+    <member type='way' ref='33001599' role='outer' />
+    <member type='way' ref='33001598' role='outer' />
+    <member type='way' ref='33002017' role='outer' />
+    <member type='way' ref='33002168' role='outer' />
+    <member type='way' ref='33002544' role='outer' />
+    <member type='way' ref='33029863' role='outer' />
+    <member type='way' ref='33037488' role='outer' />
+    <member type='way' ref='32978731' role='outer' />
+    <member type='way' ref='33001615' role='outer' />
+    <member type='way' ref='33040238' role='outer' />
+    <member type='way' ref='33040902' role='outer' />
+    <member type='way' ref='33002477' role='outer' />
+    <member type='way' ref='33002541' role='outer' />
+    <member type='way' ref='34060603' role='outer' />
+    <member type='way' ref='33002478' role='outer' />
+    <member type='way' ref='34072425' role='outer' />
+    <member type='way' ref='34072429' role='outer' />
+    <member type='way' ref='34057014' role='outer' />
+    <member type='way' ref='34066869' role='outer' />
+    <member type='way' ref='34072027' role='outer' />
+    <member type='way' ref='34072028' role='outer' />
+    <member type='way' ref='34072424' role='outer' />
+    <member type='way' ref='34072427' role='outer' />
+    <member type='way' ref='33581016' role='outer' />
+    <member type='way' ref='33581761' role='outer' />
+    <member type='way' ref='34047575' role='outer' />
+    <tag k='ref' v='063-01' />
+  </relation>
+</osm>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='comcomMaker'>
+  <relation id='-1' visible='true' action='modify' >
+    <member type='way' ref='33040658' role='outer' />
+    <member type='way' ref='121741189' role='outer' />
+    <member type='way' ref='121741191' role='outer' />
+    <member type='way' ref='132752424' role='outer' />
+    <member type='way' ref='4543274' role='outer' />
+    <member type='way' ref='33040650' role='outer' />
+    <member type='way' ref='41958018' role='outer' />
+    <member type='way' ref='71125498' role='outer' />
+    <member type='way' ref='121752083' role='outer' />
+    <member type='way' ref='121752085' role='outer' />
+    <member type='way' ref='121741190' role='outer' />
+    <member type='way' ref='121741868' role='outer' />
+    <member type='way' ref='32911605' role='outer' />
+    <member type='way' ref='4543270' role='outer' />
+    <member type='way' ref='32999301' role='outer' />
+    <member type='way' ref='32911636' role='outer' />
+    <member type='way' ref='32999277' role='outer' />
+    <member type='way' ref='32911591' role='outer' />
+    <member type='way' ref='4543214' role='outer' />
+    <member type='way' ref='32911619' role='outer' />
+    <member type='way' ref='32911575' role='outer' />
+    <member type='way' ref='4543229' role='outer' />
+    <member type='way' ref='32911550' role='outer' />
+    <member type='way' ref='32911565' role='outer' />
+    <member type='way' ref='4543209' role='outer' />
+    <member type='way' ref='121854104' role='outer' />
+    <member type='way' ref='4543331' role='outer' />
+    <member type='way' ref='32911582' role='outer' />
+    <member type='way' ref='132752413' role='outer' />
+    <member type='way' ref='121738932' role='outer' />
+    <member type='way' ref='71126768' role='outer' />
+    <member type='way' ref='70119102' role='outer' />
+    <member type='way' ref='121752082' role='outer' />
+    <member type='way' ref='121752086' role='outer' />
+    <member type='way' ref='121286926' role='outer' />
+    <member type='way' ref='31021707' role='outer' />
+    <member type='way' ref='32911601' role='outer' />
+    <member type='way' ref='4543226' role='outer' />
+    <tag k='ref' v='033-08' />
+  </relation>
+</osm>
